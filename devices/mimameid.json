@@ -1,0 +1,22 @@
+{
+    "oses": {
+        "Ubports": {
+            "diplayname": "Ubuntu Touch",
+            "creator": "ABM Open ROM Project, UBports Foundation",
+            "scriptname": "add_ubuntutouch_systemimage_haliumboot.sh",
+            "partitions": {
+                "system": {
+                    "size": "4294967296",
+                    "needUnparse": "false",
+                    "desc": "Ubuntu Touch system image",
+                    "url": "null",
+                },
+                "ut_data": {
+                    "size": "8589934592",
+                    "format": "ext4",
+                    "desc": "Ubuntu Touch userdata partition",
+                }
+            }
+        }
+    }
+}
