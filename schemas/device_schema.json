@@ -1,0 +1,175 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "oses": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "displayname": {
+              "type": "string"
+            },
+            "version": {
+              "type": "integer"
+            },
+            "displayVersion": {
+              "type": "string"
+            },
+            "creator": {
+              "type": "string"
+            },
+            "scriptname": {
+              "type": "string"
+            },
+            "rtype": {
+              "type": "string"
+            },
+            "updateJson": {
+              "type": "string"
+            },
+            "cmdline": {
+              "type": "string"
+            },
+            "partitions": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "size": {
+                      "type": "string"
+                    },
+                    "isPercent": {
+                      "type": "boolean"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "needUnsparse": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "size",
+                    "isPercent",
+                    "type",
+                    "id",
+                    "needUnsparse"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "size": {
+                      "type": "string"
+                    },
+                    "isPercent": {
+                      "type": "boolean"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "needUnsparse": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "size",
+                    "isPercent",
+                    "type",
+                    "id",
+                    "needUnsparse"
+                  ]
+                }
+              ]
+            },
+            "inet": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "desc": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "desc",
+                    "url"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "desc": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "desc",
+                    "url"
+                  ]
+                }
+              ]
+            },
+            "extraIdNeeded": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "blockIdNeeded": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "displayname",
+            "version",
+            "displayVersion",
+            "creator",
+            "scriptname",
+            "rtype",
+            "updateJson",
+            "cmdline",
+            "partitions",
+            "inet",
+            "extraIdNeeded",
+            "blockIdNeeded"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "oses"
+  ]
+}
