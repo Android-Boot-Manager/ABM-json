@@ -1,0 +1,65 @@
+{
+   "oses":[
+      {
+         "displayname":"Sailfish OS",
+         "version":1,
+         "displayVersion":"3.3.0-abm1",
+         "creator":"Adam Pigg",
+         "scriptname":"add_sailfish.sh",
+         "rtype":"SFOS",
+         "updateJson":"http://example.com/update.json",
+         "cmdline":"bootopt=64S3,32N2,64N2 androidboot.selinux=permissive audit=0 loop.max_part=7",
+         "partitions":[
+            {
+               "size":"838860288",
+               "isPercent":false,
+               "type":"8305",
+               "id":"vendor",
+               "needUnsparse":false
+            },
+            {
+               "size":"3758095872",
+               "isPercent":false,
+               "type":"8305",
+               "id":"system",
+               "needUnsparse":false
+            },
+            {
+               "size":"100",
+               "isPercent":true,
+               "type":"8302",
+               "id":"sfos",
+               "needUnsparse":true
+            }
+         ],
+         "inet":[
+            {
+               "id": "vendor",
+               "desc":"VollaOS 10 vendor image",
+               "url":"https://temp.nift4.org/vendor.img"
+            },
+            {
+               "id": "system",
+               "desc":"VollaOS 10 system image",
+               "url":"https://temp.nift4.org/vendor.img"
+            },
+            {
+               "id": "sfos",
+               "desc":"Sailfish OS system image",
+               "url":"https://gitlab.com/sailfishos-porters-ci/yggdrasil-ci/-/jobs/2114113029/artifacts/raw/sfe-yggdrasil/Sailfish_OS/sailfish.img001"
+            },
+            {
+               "id": "boot",
+               "desc":"Boot image",
+               "url":"https://gitlab.com/sailfishos-porters-ci/yggdrasil-ci/-/jobs/2114113029/artifacts/raw/sfe-yggdrasil/Sailfish_OS/hybris-boot.img"
+            }
+         ],
+         "extraIdNeeded":[
+            "boot"
+         ],
+         "blockIdNeeded":[
+            
+         ]
+      }
+   ]
+}

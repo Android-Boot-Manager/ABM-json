@@ -1,22 +1,48 @@
 {
-    "oses": {
-        "Ubports": {
-            "diplayname": "Ubuntu Touch",
-            "creator": "ABM Open ROM Project, UBports Foundation",
-            "scriptname": "add_ubuntutouch_systemimage_haliumboot.sh",
-            "partitions": {
-                "system": {
-                    "size": "4294967296",
-                    "needUnparse": "false",
-                    "desc": "Ubuntu Touch system image",
-                    "url": "null",
-                },
-                "ut_data": {
-                    "size": "8589934592",
-                    "format": "ext4",
-                    "desc": "Ubuntu Touch userdata partition",
-                }
+   "oses":[
+      {
+         "displayname":"Ubuntu Touch",
+         "version":1,
+         "displayVersion":"05092022-abm1",
+         "creator":"UBports Foundation",
+         "scriptname":"add_ubuntutouch_systemimage_haliumboot.sh",
+         "rtype":"UT",
+         "updateJson":"http://example.com/update.json",
+         "cmdline":"bootopt=64S3,32N2,64N2 androidboot.selinux=permissive rootdelay=10",
+         "partitions":[
+            {
+               "size":"12345",
+               "isPercent":false,
+               "type":"8305",
+               "id":"ut",
+               "needUnsparse":false
+            },
+            {
+               "size":"100",
+               "isPercent":true,
+               "type":"8302",
+               "id":"ut_data",
+               "needUnsparse":false
             }
-        }
-    }
+         ],
+         "inet":[
+            {
+               "id": "ut",
+               "desc":"VollaOS 10 vendor image",
+               "url":"http://open-rom-project.andbootmgr.org/mimameid/ubports/010920222/system.img"
+            },
+            {
+               "id": "boot",
+               "desc":"Boot image",
+               "url":"http://open-rom-project.andbootmgr.org/mimameid/ubports/010920222/boot.img"
+            }
+         ],
+         "extraIdNeeded":[
+            "boot"
+         ],
+         "blockIdNeeded":[
+            "ut_data"
+         ]
+      }
+   ]
 }
