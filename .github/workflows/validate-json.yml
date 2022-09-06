@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
+
       - name: Validate device JSONs
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
-           INPUT_SCHEMA: $GITHUB_WORKSPACE/schemas/device_schema.json
-           INPUT_JSONS: $GITHUB_WORKSPACE/devices/mimameid.json,$GITHUB_WORKSPACE/devices/yggdrasil.json
+           INPUT_SCHEMA: /schemas/device_schema.json
+           INPUT_JSONS: /devices/mimameid.json,/devices/yggdrasil.json
