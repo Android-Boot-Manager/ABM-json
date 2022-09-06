@@ -28,13 +28,13 @@
       "inet": [
         {
           "id": "ut",
-          "desc": "VollaOS 10 vendor image",
-          "url": "http://open-rom-project.andbootmgr.org/mimameid/ubports/010920222/system.img"
+          "desc": "Ubuntu system image",
+          "url": "https://open-rom-project.andbootmgr.org/mimameid/ubports/010920222/system.img"
         },
         {
           "id": "boot",
           "desc": "Boot image",
-          "url": "http://open-rom-project.andbootmgr.org/mimameid/ubports/010920222/boot.img"
+          "url": "https://open-rom-project.andbootmgr.org/mimameid/ubports/010920222/boot.img"
         }
       ],
       "extraIdNeeded": [
