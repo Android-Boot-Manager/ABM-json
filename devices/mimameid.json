@@ -11,7 +11,7 @@
       "cmdline": "bootopt=64S3,32N2,64N2 androidboot.selinux=permissive rootdelay=10",
       "partitions": [
         {
-          "size": "12345",
+          "size": "4294967296",
           "isPercent": false,
           "type": "8305",
           "id": "ut",
