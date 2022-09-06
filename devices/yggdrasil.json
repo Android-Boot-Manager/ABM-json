@@ -41,7 +41,7 @@
         {
           "id": "system",
           "desc": "VollaOS 10 system image",
-          "url": "https://temp.nift4.org/vendor.img"
+          "url": "https://temp.nift4.org/system.img"
         },
         {
           "id": "sfos",
