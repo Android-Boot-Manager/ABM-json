@@ -27,7 +27,7 @@
         {
           "size": "100",
           "isPercent": true,
-          "type": "8302",
+          "type": "8305",
           "id": "sfos",
           "needUnsparse": true
         }
