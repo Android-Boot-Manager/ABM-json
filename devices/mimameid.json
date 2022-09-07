@@ -8,7 +8,7 @@
       "scriptname": "add_ubuntutouch_systemimage_haliumboot.sh",
       "rtype": "UT",
       "updateJson": "http://example.com/update.json",
-      "cmdline": "bootopt=64S3,32N2,64N2 androidboot.selinux=permissive rootdelay=10",
+      "cmdline": "bootopt=64S3,32N2,64N2 androidboot.selinux=permissive rootdelay=10 replaceme",
       "partitions": [
         {
           "size": "4294967296",
