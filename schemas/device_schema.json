@@ -38,7 +38,7 @@
               "type": "object",
               "properties": {
                 "size": {
-                  "type": "string"
+                  "type": "integer"
                 },
                 "isPercent": {
                   "type": "boolean"

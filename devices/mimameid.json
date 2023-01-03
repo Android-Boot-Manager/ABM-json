@@ -11,14 +11,14 @@
       "cmdline": "bootopt=64S3,32N2,64N2 androidboot.selinux=permissive rootdelay=10 replaceme",
       "partitions": [
         {
-          "size": "4294967296",
+          "size": 4294967296,
           "isPercent": false,
           "type": "8305",
           "id": "ut",
           "needUnsparse": false
         },
         {
-          "size": "100",
+          "size": 100,
           "isPercent": true,
           "type": "8302",
           "id": "ut_data",

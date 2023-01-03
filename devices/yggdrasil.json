@@ -11,21 +11,21 @@
       "cmdline": "bootopt=64S3,32N2,64N2 androidboot.selinux=permissive audit=0 loop.max_part=7",
       "partitions": [
         {
-          "size": "838860288",
+          "size": 838860288,
           "isPercent": false,
           "type": "8305",
           "id": "vendor",
           "needUnsparse": false
         },
         {
-          "size": "3758095872",
+          "size": 3758095872,
           "isPercent": false,
           "type": "8305",
           "id": "system",
           "needUnsparse": false
         },
         {
-          "size": "100",
+          "size": 100,
           "isPercent": true,
           "type": "8305",
           "id": "sfos",
