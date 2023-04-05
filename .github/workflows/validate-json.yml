@@ -12,4 +12,4 @@ jobs:
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
            INPUT_SCHEMA: /schemas/device_schema.json
-           INPUT_JSONS: /devices/mimameid.json,/devices/yggdrasil.json
+           INPUT_JSONS: /devices/mimameid.json,/devices/yggdrasil.json,/devices/vayu.json
