@@ -1,0 +1,60 @@
+{
+  "oses": [
+    {
+      "displayname": "Ubuntu Touch",
+      "version": 1,
+      "displayVersion": "05042023-abm1",
+      "creator": "UBports Foundation",
+      "scriptname": "add_ubuntutouch_systemimage_haliumboot.sh",
+      "rtype": "UT",
+      "updateJson": "http://example.com/update.json",
+      "cmdline": "androidboot.hardware=qcom androidboot.console=ttyMSM0 androidboot.memcg=1 lpm_levels.sleep_disabled=1 video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=2048 loop.max_part=7 androidboot.usbcontroller=a600000.dwc3 console=tty0 rootdelay=10 replaceme",
+      "partitions": [
+        {
+          "size": "4294967296",
+          "isPercent": false,
+          "type": "8305",
+          "id": "ut",
+          "needUnsparse": false
+        },
+        {
+          "size": "1610612736",
+          "isPercent": false,
+          "type": "8305",
+          "id": "ut_vendor",
+          "needUnsparse": false
+        },
+        {
+          "size": "100",
+          "isPercent": true,
+          "type": "8302",
+          "id": "ut_data",
+          "needUnsparse": false
+        }
+      ],
+      "inet": [
+        {
+          "id": "ut",
+          "desc": "Ubuntu system image",
+          "url": "https://open-rom-project.andbootmgr.org/vayu/ubports/05042023/system.img"
+        },
+        {
+          "id": "ut_vendor",
+          "desc": "LineageOS 18.1 vendor image",
+          "url": "https://open-rom-project.andbootmgr.org/vayu/ubports/05042023/vendor.img"
+        },
+        {
+          "id": "boot",
+          "desc": "Boot image",
+          "url": "https://open-rom-project.andbootmgr.org/vayu/ubports/05042023/boot.img"
+        }
+      ],
+      "extraIdNeeded": [
+        "boot"
+      ],
+      "blockIdNeeded": [
+        "ut_data"
+      ]
+    }
+  ]
+}
