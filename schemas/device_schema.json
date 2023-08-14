@@ -1,8 +1,23 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Schema for ABM device (?)",
+  "title": "Schema for ABM device download assets",
   "type": "object",
   "properties": {
+    "bootloader" : {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "version": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "url",
+        "version"
+      ],
+    },
     "oses": {
       "type": "array",
       "items": {
@@ -115,6 +130,7 @@
     }
   },
   "required": [
-    "oses"
+    "oses",
+    "bootloader"
   ]
 }
