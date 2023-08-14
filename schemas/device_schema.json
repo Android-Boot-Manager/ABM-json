@@ -16,7 +16,7 @@
       "required": [
         "url",
         "version"
-      ],
+      ]
     },
     "oses": {
       "type": "array",
