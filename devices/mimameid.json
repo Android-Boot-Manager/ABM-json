@@ -33,12 +33,12 @@
         {
           "id": "ut",
           "desc": "Ubuntu system image",
-          "url": "https://open-rom-project.andbootmgr.org/mimameid/ubports/010920222/system.img"
+          "url": "https://open-rom-project.andbootmgr.org/mimameid/ubports/05122023/system.img"
         },
         {
           "id": "boot",
           "desc": "Boot image",
-          "url": "https://open-rom-project.andbootmgr.org/mimameid/ubports/010920222/boot.img"
+          "url": "https://open-rom-project.andbootmgr.org/mimameid/ubports/05122023/boot.img"
         }
       ],
       "extraIdNeeded": [
