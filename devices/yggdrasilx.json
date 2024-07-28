@@ -1,0 +1,48 @@
+{
+  "oses": [
+    {
+      "displayname": "Ubuntu Touch",
+      "version": 2,
+      "displayVersion": "14031024-vbm1",
+      "creator": "UBports Foundation",
+      "scriptname": "add_ubuntutouch_systemimage_haliumboot.sh",
+      "rtype": "UT",
+      "updateJson": "https://abm.volla.tech/devices/update/yggdrasilx/14031024.json",
+      "cmdline": "bootopt=64S3,32N2,64N2 androidboot.selinux=permissive rootdelay=10 replaceme",
+      "partitions": [
+        {
+          "size": "4294967296",
+          "isPercent": false,
+          "type": "8305",
+          "id": "ut",
+          "needUnsparse": false
+        },
+        {
+          "size": "100",
+          "isPercent": true,
+          "type": "8302",
+          "id": "ut_data",
+          "needUnsparse": false
+        }
+      ],
+      "inet": [
+        {
+          "id": "ut",
+          "desc": "Ubuntu system image",
+          "url": "https://abm.volla.tech/yggdrasilx/ubports/14031024/system.img"
+        },
+        {
+          "id": "boot",
+          "desc": "Boot image",
+          "url": "https://abm.volla.tech/yggdrasilx/ubports/14031024/boot.img"
+        }
+      ],
+      "extraIdNeeded": [
+        "boot"
+      ],
+      "blockIdNeeded": [
+        "ut_data"
+      ]
+    }
+  ]
+}
