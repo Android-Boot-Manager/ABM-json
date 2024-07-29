@@ -35,10 +35,16 @@
           "id": "boot",
           "desc": "Boot image",
           "url": "https://abm.volla.tech/yggdrasilx/ubports/14031024/boot.img"
+        },
+        {
+          "id": "logo",
+          "desc": "Logo image",
+          "url": "https://open-rom-project.andbootmgr.org/mimameid/UbuntuTouch.bin"
         }
       ],
       "extraIdNeeded": [
-        "boot"
+        "boot",
+        "logo"
       ],
       "blockIdNeeded": [
         "ut_data"
