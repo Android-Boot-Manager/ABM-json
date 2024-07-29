@@ -2,8 +2,8 @@
   "oses": [
     {
       "displayname": "Ubuntu Touch",
-      "version": 1,
-      "displayVersion": "11092023-abm1",
+      "version": 2,
+      "displayVersion": "21032024-vbm1",
       "creator": "UBports Foundation",
       "scriptname": "add_ubuntutouch_systemimage_haliumboot.sh",
       "rtype": "UT",
@@ -29,16 +29,22 @@
         {
           "id": "ut",
           "desc": "Ubuntu system image",
-          "url": "https://open-rom-project.andbootmgr.org/vidofnir/ubports/10112023/ubuntu.img"
+          "url": "https://abm.volla.tech/vidofnir/ubports/21032024/system.img"
         },
         {
           "id": "boot",
           "desc": "Boot image",
-          "url": "https://open-rom-project.andbootmgr.org/vidofnir/ubports/10112023/halium-boot.img"
+          "url": "https://abm.volla.tech/vidofnir/ubports/21032024/boot.img"
+        },
+        {
+          "id": "logo",
+          "desc": "Logo image",
+          "url": "https://open-rom-project.andbootmgr.org/mimameid/UbuntuTouch.bin"
         }
       ],
       "extraIdNeeded": [
-        "boot"
+        "boot",
+        "logo"
       ],
       "blockIdNeeded": [
         "ut_data"
