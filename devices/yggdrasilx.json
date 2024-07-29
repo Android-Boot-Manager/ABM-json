@@ -7,7 +7,7 @@
       "creator": "UBports Foundation",
       "scriptname": "add_ubuntutouch_systemimage_haliumboot.sh",
       "rtype": "UT",
-      "updateJson": "https://abm.volla.tech/devices/update/yggdrasilx/14031024.json",
+      "updateJson": "http://example.com/update.json",
       "cmdline": "bootopt=64S3,32N2,64N2 androidboot.selinux=permissive rootdelay=10 replaceme",
       "partitions": [
         {
