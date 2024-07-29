@@ -33,16 +33,22 @@
         {
           "id": "ut",
           "desc": "Ubuntu system image",
-          "url": "https://open-rom-project.andbootmgr.org/mimameid/ubports/05122023/system.img"
+          "url": "https://abm.volla.tech/mimameid/ubports/19072024/system.img"
         },
         {
           "id": "boot",
           "desc": "Boot image",
-          "url": "https://open-rom-project.andbootmgr.org/mimameid/ubports/05122023/boot.img"
+          "url": "https://abm.volla.tech/mimameid/ubports/19072024/boot.img"
+        },
+        {
+          "id": "logo",
+          "desc": "Logo image",
+          "url": "https://open-rom-project.andbootmgr.org/mimameid/UbuntuTouch.bin"
         }
       ],
       "extraIdNeeded": [
-        "boot"
+        "boot",
+        "logo"
       ],
       "blockIdNeeded": [
         "ut_data"
