@@ -37,7 +37,8 @@
         "sdBlock",
         "sdBlockP",
         "postInstallScript",
-        "haveDtbo"
+        "haveDtbo",
+        "metaOnSd"
       ]
     },
     "bootloader" : {
