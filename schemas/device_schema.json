@@ -3,6 +3,9 @@
   "title": "Schema for ABM device download assets",
   "type": "object",
   "properties": {
+    "minAppVersion": {
+      "type": "number"
+    },
     "bootloader" : {
       "type": "object",
       "properties": {
@@ -11,11 +14,28 @@
         },
         "version": {
           "type": "number"
+        },
+        "sha256": {
+          "type": "string"
         }
       },
       "required": [
         "url",
         "version"
+      ]
+    },
+    "installScript" : {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "url"
       ]
     },
     "oses": {
@@ -131,6 +151,6 @@
   },
   "required": [
     "oses",
-    "bootloader"
+    "minAppVersion"
   ]
 }
