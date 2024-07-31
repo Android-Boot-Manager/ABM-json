@@ -52,6 +52,9 @@
           "displayVersion": {
             "type": "string"
           },
+          "scriptSha256": {
+            "type": "string"
+          },
           "creator": {
             "type": "string"
           },
