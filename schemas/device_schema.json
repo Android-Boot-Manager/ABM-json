@@ -26,6 +26,9 @@
         },
         "haveDtbo": {
           "type": "boolean"
+        },
+        "metaOnSDd": {
+          "type": "boolean"
         }
       },
       "required": [
