@@ -27,7 +27,7 @@
         "haveDtbo": {
           "type": "boolean"
         },
-        "metaOnSDd": {
+        "metaOnSd": {
           "type": "boolean"
         }
       },
