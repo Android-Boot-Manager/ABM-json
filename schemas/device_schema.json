@@ -6,6 +6,37 @@
     "minAppVersion": {
       "type": "number"
     },
+    "deviceInfo" : {
+      "type": "object",
+      "properties": {
+        "codename": {
+          "type": "string"
+        },
+        "blBlock": {
+          "type": "string"
+        },
+        "sdBlock": {
+          "type": "string"
+        },
+        "sdBlockP": {
+          "type": "string"
+        },
+        "postInstallScript": {
+          "type": "boolean"
+        },
+        "haveDtbo": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "codename",
+        "blBlock",
+        "sdBlock",
+        "sdBlockP",
+        "postInstallScript",
+        "haveDtbo"
+      ]
+    },
     "bootloader" : {
       "type": "object",
       "properties": {
@@ -153,6 +184,7 @@
     }
   },
   "required": [
+    "deviceInfo",
     "oses",
     "minAppVersion"
   ]
