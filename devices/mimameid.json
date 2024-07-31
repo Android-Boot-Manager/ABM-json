@@ -12,7 +12,8 @@
     "sdBlock": "/dev/block/mmcblk1",
     "sdBlockP": "/dev/block/mmcblk1p",
     "postInstallScript": true,
-    "haveDtbo": false
+    "haveDtbo": false,
+    "metaOnSd": true
   },
   "oses": [
     {
