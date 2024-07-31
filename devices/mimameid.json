@@ -1,4 +1,7 @@
 {
+  "installScript": {
+    "url": "https://github.com/Android-Boot-Manager/Scripts/raw/master/install/mimameid.sh"
+  },
   "bootloader": {
     "url": "https://open-rom-project.andbootmgr.org/mimameid/lk_1.img",
     "version": 1
