@@ -1,4 +1,5 @@
 {
+  "minAppVersion": 3001,
   "installScript": {
     "url": "https://github.com/Android-Boot-Manager/Scripts/raw/master/install/mimameid.sh"
   },
