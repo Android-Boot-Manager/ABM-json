@@ -3,6 +3,18 @@
     "url": "https://open-rom-project.andbootmgr.org/yggdrasil/lk_1.img",
     "version": 1
   },
+  "installScript": {
+    "url": "https://github.com/Android-Boot-Manager/Scripts/raw/master/install/yggdrasil.sh"
+  },
+  "deviceInfo": {
+    "codename": "yggdrasil",
+    "blBlock": "/dev/block/by-name/lk",
+    "sdBlock": "/dev/block/mmcblk1",
+    "sdBlockP": "/dev/block/mmcblk1p",
+    "postInstallScript": true,
+    "haveDtbo": false,
+    "metaOnSd": true
+  },
   "oses": [
     {
       "displayname": "Sailfish OS",
