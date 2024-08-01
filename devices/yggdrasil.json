@@ -1,4 +1,5 @@
 {
+  "minAppVersion": 3001,
   "bootloader": {
     "url": "https://open-rom-project.andbootmgr.org/yggdrasil/lk_1.img",
     "version": 1
