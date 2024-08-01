@@ -17,7 +17,7 @@
       "version": 1,
       "displayVersion": "05042023-abm1",
       "creator": "UBports Foundation",
-      "scriptname": "add_ubuntutouch_systemimage_haliumboot.sh",
+      "scriptname": "https://github.com/Android-Boot-Manager/Scripts/raw/master/add_os/vayu/add_ubuntutouch_systemimage_haliumboot.sh",
       "rtype": "UT",
       "updateJson": "http://example.com/update.json",
       "cmdline": "androidboot.hardware=qcom androidboot.console=ttyMSM0 androidboot.memcg=1 lpm_levels.sleep_disabled=1 video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=2048 loop.max_part=7 androidboot.usbcontroller=a600000.dwc3 console=tty0 rootdelay=10 replaceme",
