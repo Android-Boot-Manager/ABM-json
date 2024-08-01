@@ -1,4 +1,16 @@
 {
+  "installScript": {
+    "url": "https://github.com/Android-Boot-Manager/Scripts/raw/master/install/vayu.sh"
+  },
+  "deviceInfo": {
+    "codename": "vayu",
+    "blBlock": "/dev/block/by-name/boot",
+    "sdBlock": "/dev/block/mmcblk0",
+    "sdBlockP": "/dev/block/mmcblk0p",
+    "postInstallScript": true,
+    "haveDtbo": true,
+    "metaOnSd": true
+  },
   "oses": [
     {
       "displayname": "Ubuntu Touch",
