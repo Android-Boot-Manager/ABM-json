@@ -21,7 +21,7 @@
       "version": 1,
       "displayVersion": "3.3.0-abm1",
       "creator": "Adam Pigg",
-      "scriptname": "add_sailfish.sh",
+      "scriptname": "https://github.com/Android-Boot-Manager/Scripts/raw/master/add_os/yggdrasil/add_sailfish.sh",
       "rtype": "SFOS",
       "updateJson": "http://example.com/update.json",
       "cmdline": "bootopt=64S3,32N2,64N2 androidboot.selinux=permissive audit=0 loop.max_part=7",
