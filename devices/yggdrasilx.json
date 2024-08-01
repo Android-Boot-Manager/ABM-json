@@ -17,7 +17,7 @@
       "version": 2,
       "displayVersion": "14031024-vbm1",
       "creator": "UBports Foundation",
-      "scriptname": "add_ubuntutouch_systemimage_haliumboot.sh",
+      "scriptname": "https://github.com/Android-Boot-Manager/Scripts/raw/master/add_os/yggdrasilx/add_ubuntutouch_systemimage_haliumboot.sh",
       "rtype": "UT",
       "updateJson": "http://example.com/update.json",
       "cmdline": "bootopt=64S3,32N2,64N2 androidboot.selinux=permissive rootdelay=10 replaceme",
