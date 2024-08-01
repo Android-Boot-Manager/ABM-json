@@ -1,4 +1,16 @@
 {
+  "installScript": {
+    "url": "https://github.com/Android-Boot-Manager/Scripts/raw/master/install/vidofnir.sh"
+  },
+  "deviceInfo": {
+    "codename": "vidofnir",
+    "blBlock": "/dev/block/by-name/lk",
+    "sdBlock": "/dev/block/mmcblk0",
+    "sdBlockP": "/dev/block/mmcblk0p",
+    "postInstallScript": true,
+    "haveDtbo": false,
+    "metaOnSd": true
+  },
   "oses": [
     {
       "displayname": "Ubuntu Touch",
