@@ -23,6 +23,7 @@
       "displayVersion": "05092022-abm1",
       "creator": "UBports Foundation",
       "scriptname": "https://github.com/Android-Boot-Manager/Scripts/raw/master/add_os/mimameid/add_ubuntutouch_systemimage_haliumboot.sh",
+      "scriptSha256": "baaad0f8d7c33d0aa0e85ae77e593a32d4298ca79f240fa8cfa617d6cde5b86",
       "rtype": "UT",
       "updateJson": "http://example.com/update.json",
       "cmdline": "bootopt=64S3,32N2,64N2 androidboot.selinux=permissive rootdelay=10 replaceme",
