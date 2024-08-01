@@ -1,4 +1,16 @@
 {
+  "installScript": {
+    "url": "https://github.com/Android-Boot-Manager/Scripts/raw/master/install/yggdrasilx.sh"
+  },
+  "deviceInfo": {
+    "codename": "yggdrasilx",
+    "blBlock": "/dev/block/by-name/lk",
+    "sdBlock": "/dev/block/mmcblk1",
+    "sdBlockP": "/dev/block/mmcblk1p",
+    "postInstallScript": true,
+    "haveDtbo": false,
+    "metaOnSd": true
+  },
   "oses": [
     {
       "displayname": "Ubuntu Touch",
