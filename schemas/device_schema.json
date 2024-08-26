@@ -52,6 +52,9 @@
         },
         "sha256": {
           "type": "string"
+        },
+        "updateOnly": {
+          "type": "boolean"
         }
       },
       "required": [
