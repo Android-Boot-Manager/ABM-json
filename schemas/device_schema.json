@@ -29,6 +29,9 @@
         },
         "metaOnSd": {
           "type": "boolean"
+        },
+        "realEntryHasKernel": {
+          "type": "boolean"
         }
       },
       "required": [
