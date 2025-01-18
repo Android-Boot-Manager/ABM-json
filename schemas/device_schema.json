@@ -34,8 +34,6 @@
       "required": [
         "codename",
         "blBlock",
-        "sdBlock",
-        "sdBlockP",
         "postInstallScript",
         "haveDtbo",
         "metaOnSd"
