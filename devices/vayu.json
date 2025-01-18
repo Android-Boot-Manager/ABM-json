@@ -3,6 +3,11 @@
   "installScript": {
     "url": "https://github.com/Android-Boot-Manager/Scripts/raw/master/install/vayu.sh"
   },
+  "bootloader": {
+    "url": "https://open-rom-project.andbootmgr.org/vayu/droidboot.img",
+    "sha256": "748a299e8100a45a84ddccef8f688bb9277f96b6d3c0671f90d3f1f61c28bac6"
+    "version": 1
+  },
   "deviceInfo": {
     "codename": "vayu",
     "blBlock": "/dev/block/by-name/boot",
