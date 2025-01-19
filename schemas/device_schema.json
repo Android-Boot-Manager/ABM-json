@@ -133,7 +133,6 @@
               "required": [
                 "size",
                 "isPercent",
-                "type",
                 "id",
                 "needUnsparse"
               ]
